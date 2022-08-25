@@ -1,3 +1,8 @@
+## Overview
+
+Our aim here is to template a shiny app that can read and plot spectra whilst
+measurement are being made.
+
 ## Principles
 
 watchdog is a python module that features the following components:
