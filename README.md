@@ -1,7 +1,7 @@
 ## Overview
 
 Our aim here is to template a shiny app that can read and plot spectra whilst
-measurement are being made.
+measurements are being made.
 
 ## Principles
 
@@ -21,6 +21,7 @@ To name, run and test the image:
 export IMAGE="spectral-cockpit/watchspec-devel"
 # build image
 docker build -t $IMAGE .
+docker run -p 8080:3838 $IMAGE
 ```
 
 ## Credits
