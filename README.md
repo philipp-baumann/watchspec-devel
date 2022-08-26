@@ -26,3 +26,4 @@ docker run -p 8080:3838 $IMAGE
 
 ## Credits
 
+- python pre-commit hooks are from opengis.ch public repos with MIT licencing.
